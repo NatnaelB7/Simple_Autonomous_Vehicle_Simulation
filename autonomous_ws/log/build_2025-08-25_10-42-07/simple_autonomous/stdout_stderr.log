@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/simple_autonomous/simple_autonomous.egg-info
+writing ../../build/simple_autonomous/simple_autonomous.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_autonomous/simple_autonomous.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_autonomous/simple_autonomous.egg-info/entry_points.txt
+writing requirements to ../../build/simple_autonomous/simple_autonomous.egg-info/requires.txt
+writing top-level names to ../../build/simple_autonomous/simple_autonomous.egg-info/top_level.txt
+writing manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+reading manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/natnael/autonomous_ws/build/simple_autonomous/build
+creating /home/natnael/autonomous_ws/build/simple_autonomous/build/lib
+creating /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous
+copying simple_autonomous/obstacle_stop.py -> /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous
+copying simple_autonomous/__init__.py -> /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous
+running install
+running install_lib
+creating /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous
+copying /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous/obstacle_stop.py -> /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous
+copying /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous/__init__.py -> /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous
+byte-compiling /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous/obstacle_stop.py to obstacle_stop.cpython-310.pyc
+byte-compiling /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/natnael/autonomous_ws/install/simple_autonomous/share/ament_index
+creating /home/natnael/autonomous_ws/install/simple_autonomous/share/ament_index/resource_index
+creating /home/natnael/autonomous_ws/install/simple_autonomous/share/ament_index/resource_index/packages
+copying resource/simple_autonomous -> /home/natnael/autonomous_ws/install/simple_autonomous/share/ament_index/resource_index/packages
+copying package.xml -> /home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous
+running install_egg_info
+Copying ../../build/simple_autonomous/simple_autonomous.egg-info to /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obstacle_stop script to /home/natnael/autonomous_ws/install/simple_autonomous/lib/simple_autonomous
+writing list of installed files to '/home/natnael/autonomous_ws/build/simple_autonomous/install.log'

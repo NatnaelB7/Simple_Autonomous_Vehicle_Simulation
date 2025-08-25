@@ -1,0 +1,24 @@
+[0.625s] Invoking command in '/home/natnael/autonomous_ws/src/simple_autonomous': PYTHONPATH=/home/natnael/autonomous_ws/build/simple_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_autonomous build --build-base /home/natnael/autonomous_ws/build/simple_autonomous/build install --record /home/natnael/autonomous_ws/build/simple_autonomous/install.log --single-version-externally-managed install_data
+[0.866s] running egg_info
+[0.867s] writing ../../build/simple_autonomous/simple_autonomous.egg-info/PKG-INFO
+[0.867s] writing dependency_links to ../../build/simple_autonomous/simple_autonomous.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../../build/simple_autonomous/simple_autonomous.egg-info/entry_points.txt
+[0.867s] writing requirements to ../../build/simple_autonomous/simple_autonomous.egg-info/requires.txt
+[0.867s] writing top-level names to ../../build/simple_autonomous/simple_autonomous.egg-info/top_level.txt
+[0.869s] reading manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+[0.869s] writing manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+[0.870s] running build
+[0.870s] running build_py
+[0.870s] copying simple_autonomous/obstacle_stop.py -> /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous
+[0.870s] running install
+[0.870s] running install_lib
+[0.871s] copying /home/natnael/autonomous_ws/build/simple_autonomous/build/lib/simple_autonomous/obstacle_stop.py -> /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous
+[0.871s] byte-compiling /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous/obstacle_stop.py to obstacle_stop.cpython-310.pyc
+[0.872s] running install_data
+[0.872s] running install_egg_info
+[0.874s] removing '/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous-0.0.0-py3.10.egg-info' (and everything under it)
+[0.874s] Copying ../../build/simple_autonomous/simple_autonomous.egg-info to /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous-0.0.0-py3.10.egg-info
+[0.875s] running install_scripts
+[0.892s] Installing obstacle_stop script to /home/natnael/autonomous_ws/install/simple_autonomous/lib/simple_autonomous
+[0.892s] writing list of installed files to '/home/natnael/autonomous_ws/build/simple_autonomous/install.log'
+[0.921s] Invoked command in '/home/natnael/autonomous_ws/src/simple_autonomous' returned '0': PYTHONPATH=/home/natnael/autonomous_ws/build/simple_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_autonomous build --build-base /home/natnael/autonomous_ws/build/simple_autonomous/build install --record /home/natnael/autonomous_ws/build/simple_autonomous/install.log --single-version-externally-managed install_data

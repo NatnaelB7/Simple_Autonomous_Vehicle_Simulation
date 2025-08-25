@@ -1,0 +1,176 @@
+[0.093s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.093s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7306cff44550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7306cff0fdc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7306cff0fdc0>>)[0m
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.249s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/natnael/autonomous_ws'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore_ament_install'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_pkg']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_pkg'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_meta']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_meta'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ros']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ros'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Autonomous-Explorer-and-Mapper-ros2-nav2' with type 'ros.ament_python' and name 'custom_explorer'[0m
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extension 'ignore_ament_install'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extensions ['colcon_pkg']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extension 'colcon_pkg'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extensions ['colcon_meta']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extension 'colcon_meta'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extensions ['ros']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_autonomous) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/simple_autonomous' with type 'ros.ament_python' and name 'simple_autonomous'[0m
+[0.273s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.273s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.273s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.273s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.273s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.288s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 463 installed packages in /opt/ros/humble[0m
+[0.290s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_args' from command line to 'None'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_target' from command line to 'None'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'custom_explorer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/natnael/autonomous_ws/build/custom_explorer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/natnael/autonomous_ws/install/custom_explorer', 'merge_install': False, 'path': '/home/natnael/autonomous_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_args' from command line to 'None'
+[0.335s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_target' from command line to 'None'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_autonomous' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'simple_autonomous' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/natnael/autonomous_ws/build/simple_autonomous', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/natnael/autonomous_ws/install/simple_autonomous', 'merge_install': False, 'path': '/home/natnael/autonomous_ws/src/simple_autonomous', 'symlink_install': False, 'test_result_base': None}[0m
+[0.336s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.337s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.337s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/natnael/autonomous_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2' with build type 'ament_python'
+[0.337s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_explorer', 'ament_prefix_path')
+[0.339s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/ament_prefix_path.ps1'
+[0.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/ament_prefix_path.dsv'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/ament_prefix_path.sh'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.344s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/natnael/autonomous_ws/src/simple_autonomous' with build type 'ament_python'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('simple_autonomous', 'ament_prefix_path')
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/ament_prefix_path.ps1'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/ament_prefix_path.dsv'
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/ament_prefix_path.sh'
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.585s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/natnael/autonomous_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2'
+[0.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.823s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/natnael/autonomous_ws/src/simple_autonomous'
+[0.824s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.171s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/natnael/autonomous_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2': PYTHONPATH=/home/natnael/autonomous_ws/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/natnael/autonomous_ws/build/custom_explorer/build install --record /home/natnael/autonomous_ws/build/custom_explorer/install.log --single-version-externally-managed install_data[0m
+[1.175s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/natnael/autonomous_ws/src/simple_autonomous': PYTHONPATH=/home/natnael/autonomous_ws/build/simple_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_autonomous build --build-base /home/natnael/autonomous_ws/build/simple_autonomous/build install --record /home/natnael/autonomous_ws/build/simple_autonomous/install.log --single-version-externally-managed install_data[0m
+[1.436s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/natnael/autonomous_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2' returned '0': PYTHONPATH=/home/natnael/autonomous_ws/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/natnael/autonomous_ws/build/custom_explorer/build install --record /home/natnael/autonomous_ws/build/custom_explorer/install.log --single-version-externally-managed install_data[0m
+[1.438s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer' for CMake module files
+[1.438s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer' for CMake config files
+[1.439s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer/lib'
+[1.439s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer/bin'
+[1.439s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer/lib/pkgconfig/custom_explorer.pc'
+[1.439s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer/lib/python3.10/site-packages'
+[1.439s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_explorer', 'pythonpath')
+[1.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/pythonpath.ps1'
+[1.440s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/pythonpath.dsv'
+[1.440s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/hook/pythonpath.sh'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/custom_explorer/bin'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_explorer)
+[1.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/package.ps1'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/package.dsv'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/package.sh'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/package.bash'
+[1.443s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/custom_explorer/share/custom_explorer/package.zsh'
+[1.444s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/natnael/autonomous_ws/install/custom_explorer/share/colcon-core/packages/custom_explorer)
+[1.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous' for CMake module files
+[1.445s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/natnael/autonomous_ws/src/simple_autonomous' returned '0': PYTHONPATH=/home/natnael/autonomous_ws/build/simple_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_autonomous build --build-base /home/natnael/autonomous_ws/build/simple_autonomous/build install --record /home/natnael/autonomous_ws/build/simple_autonomous/install.log --single-version-externally-managed install_data[0m
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous' for CMake config files
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous/lib'
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous/bin'
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous/lib/pkgconfig/simple_autonomous.pc'
+[1.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages'
+[1.446s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('simple_autonomous', 'pythonpath')
+[1.446s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/pythonpath.ps1'
+[1.447s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/pythonpath.dsv'
+[1.447s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/hook/pythonpath.sh'
+[1.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/natnael/autonomous_ws/install/simple_autonomous/bin'
+[1.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(simple_autonomous)
+[1.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/package.ps1'
+[1.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/package.dsv'
+[1.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/package.sh'
+[1.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/package.bash'
+[1.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/natnael/autonomous_ws/install/simple_autonomous/share/simple_autonomous/package.zsh'
+[1.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/natnael/autonomous_ws/install/simple_autonomous/share/colcon-core/packages/simple_autonomous)
+[1.449s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.450s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.450s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.450s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.454s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.454s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.454s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.464s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/natnael/autonomous_ws/install/local_setup.ps1'
+[1.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/natnael/autonomous_ws/install/_local_setup_util_ps1.py'
+[1.467s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/natnael/autonomous_ws/install/setup.ps1'
+[1.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/natnael/autonomous_ws/install/local_setup.sh'
+[1.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/natnael/autonomous_ws/install/_local_setup_util_sh.py'
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/natnael/autonomous_ws/install/setup.sh'
+[1.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/natnael/autonomous_ws/install/local_setup.bash'
+[1.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/natnael/autonomous_ws/install/setup.bash'
+[1.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/natnael/autonomous_ws/install/local_setup.zsh'
+[1.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/natnael/autonomous_ws/install/setup.zsh'

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/simple_autonomous/simple_autonomous.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_autonomous/simple_autonomous.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_autonomous/simple_autonomous.egg-info/entry_points.txt
+writing requirements to ../../build/simple_autonomous/simple_autonomous.egg-info/requires.txt
+writing top-level names to ../../build/simple_autonomous/simple_autonomous.egg-info/top_level.txt
+reading manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_autonomous/simple_autonomous.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simple_autonomous/simple_autonomous.egg-info to /home/natnael/autonomous_ws/install/simple_autonomous/lib/python3.10/site-packages/simple_autonomous-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obstacle_avoid script to /home/natnael/autonomous_ws/install/simple_autonomous/lib/simple_autonomous
+Installing obstacle_stop script to /home/natnael/autonomous_ws/install/simple_autonomous/lib/simple_autonomous
+writing list of installed files to '/home/natnael/autonomous_ws/build/simple_autonomous/install.log'

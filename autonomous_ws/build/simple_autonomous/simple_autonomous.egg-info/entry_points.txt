@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_avoid = simple_autonomous.obstacle_avoid:main
+obstacle_stop = simple_autonomous.obstacle_stop:main
+
