@@ -86,6 +86,13 @@ ros2 run simple_autonomous obstacle_stop
 * Publishes stop/go based on LiDAR.
 * Moves forward if no obstacle is within 0.2 m, stops otherwise.
 
+**Simulation Video:**
+
+<video width="600" controls>
+  <source src="obstacle_stop.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ### Run `obstacle_avoid` node
@@ -98,7 +105,15 @@ ros2 run simple_autonomous obstacle_avoid
 * Turns left or right automatically to avoid obstacles.
 * Provides simple autonomous navigation in Gazebo.
 
+**Simulation Video:**
+
+<video width="600" controls>
+  <source src="obstacle_avoid.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ---
+
 
 ### Topics
 
