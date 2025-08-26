@@ -88,10 +88,7 @@ ros2 run simple_autonomous obstacle_stop
 
 **Simulation Video:**
 
-<video width="600" controls>
-  <source src="obstacle_stop.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[Watch Simulation](obstacle_stop.webm)
 
 ---
 
@@ -107,10 +104,7 @@ ros2 run simple_autonomous obstacle_avoid
 
 **Simulation Video:**
 
-<video width="600" controls>
-  <source src="obstacle_avoid.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[Watch Simulation](obstacle_avoid.webm)
 
 ---
 
